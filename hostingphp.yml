@@ -7,7 +7,3 @@ database:
   host: localhost
   port: 3306
   create_user: true
-commands:
-  - wp core install --url=https://wordpress.hostingphp.cloudapp.web.id --title="My WordPress" --admin_user=admin --admin_password=secret123 --admin_email=ahmadoriza@gmail.com
-  - wp option update blogdescription "Just another WordPress site"
-  - wp theme install twentytwentyfour --activate
